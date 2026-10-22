@@ -1,0 +1,2987 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GenZos.ai - AI-Powered Engineering Automation</title>
+  <meta name="description"
+    content="GenZos.ai enables enterprises to accelerate application development by integrating AI across the software engineering lifecycle.">
+  <!-- Google Fonts - Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Technical Grid Background Layer -->
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- Fixed Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="brand" aria-label="GenZos.ai Home">
+        <img src="logoicon-white.png" alt="GenZos.ai" class="navbar-logo" id="navbarLogo">
+      </a>
+
+      <nav class="nav-links">
+        <a href="#platform" class="nav-link">Platform</a>
+        <a href="#solutions" class="nav-link">Solutions</a>
+        <a href="#lifecycle" class="nav-link">LifeCycle</a>
+        <a href="#governance" class="nav-link">Governance</a>
+        <a href="#capabilities" class="nav-link">Capabilities</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-button" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon" id="themeIcon">☾</span> <span class="theme-label" id="themeLabel">Dark</span>
+        </button>
+        <a href="#demo" class="demo-button">Book a Demo <span class="btn-arrow">→</span></a>
+      </div>
+
+      <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Panel -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <div class="mobile-menu-inner">
+        <nav class="mobile-nav-links">
+          <a href="#platform" class="mobile-nav-link">Platform</a>
+          <a href="#solutions" class="mobile-nav-link">Solutions</a>
+          <a href="#lifecycle" class="mobile-nav-link">LifeCycle</a>
+          <a href="#governance" class="mobile-nav-link">Governance</a>
+          <a href="#capabilities" class="mobile-nav-link">Capabilities</a>
+        </nav>
+        <div class="mobile-nav-actions">
+          <button type="button" class="theme-button mobile-theme-button" id="mobileThemeToggle">
+            <span class="theme-icon">☾</span> Dark
+          </button>
+          <a href="#demo" class="demo-button mobile-demo-button">Book a Demo →</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <!-- Main Content Area -->
+  <main class="page-container">
+
+    <!-- HERO SECTION WITH HERO-IMAGE.PNG & NEW ENTERPRISE COPY -->
+    <section class="hero-video-section" id="hero">
+      <!-- Fullscreen Background Video -->
+      <video class="hero-bg-video" autoplay muted loop playsinline preload="auto">
+        <source src="hero-section-3.mp4" type="video/mp4">
+      </video>
+
+      <!-- Ambient Blue / Night Overlay for Depth & Contrast -->
+      <div class="hero-video-overlay" aria-hidden="true"></div>
+
+      <!-- Hero Centered Content Container -->
+      <div class="hero-video-container">
+
+        <!-- Pill Badge -->
+        <div class="hero-eyebrow-pill-blue">
+          <span class="hero-pill-dot"></span>
+          <span class="hero-pill-text">AI-Native Software Engineering Platform</span>
+        </div>
+
+        <!-- Main Hero Heading — 3 Lines -->
+        <h1 class="hero-video-heading">
+          Accelerate Enterprise Software <br>
+          <span class="accent-text-blue">Delivery with AI-Native Development Automation Platform</span>
+        </h1>
+
+        <!-- Supporting Description -->
+        <p class="hero-video-subtitle">
+          Turn requirements and bold business ideas into production-ready software, faster. GenZos.ai is an AI-native
+          software development platform that accelerates the software engineering lifecycle, from idea to validated
+          code, with AI-powered automation across requirements, architecture, development, testing, and documentation.
+        </p>
+
+        <!-- CTA Action Buttons -->
+        <div class="hero-cta-buttons-group">
+          <a href="#demo" class="hero-btn-primary-blue">Request Demo</a>
+          <a href="#platform" class="hero-btn-secondary-light">
+            <span>Explore Platform</span>
+            <span class="btn-arrow">→</span>
+          </a>
+        </div>
+
+        <!-- HERO TECHNOLOGY STACK AUTO-SCROLL CAROUSEL -->
+        <div class="hero-tech-stack-wrapper">
+          <div class="hero-tech-stack-label">TECHNOLOGY STACK</div>
+          <div class="hero-tech-carousel-panel">
+            <div class="hero-tech-track" aria-label="Technology Stack Carousel">
+              <!-- Set 1 -->
+              <div class="hero-tech-track-group">
+                <!-- Python -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M11.91 2C6.98 2 7.29 4.14 7.29 4.14L7.3 6.36H12v.69H5.32S2 6.67 2 11.66c0 5 2.9 4.82 2.9 4.82h1.73v-2.42s-.09-2.9 2.85-2.9h4.92s2.74.04 2.74-2.67V4.72S17.47 2 11.91 2zM9.46 3.61a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8z"
+                        fill="#38BDF8" />
+                      <path
+                        d="M12.09 22c4.93 0 4.62-2.14 4.62-2.14l-.01-2.22H12v-.69h6.68S22 17.33 22 12.34c0-5-2.9-4.82-2.9-4.82h-1.73v2.42s.09 2.9-2.85 2.9H9.6s-2.74-.04-2.74 2.67v3.77S6.53 22 12.09 22zm2.45-1.61a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8z"
+                        fill="#60A5FA" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Python</span>
+                </div>
+
+                <!-- Django -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M11.14 2h3.29v15.47c-1.74.34-3.03.45-4.44.45-4.44 0-6.74-2.02-6.74-5.69 0-3.52 2.37-5.83 5.9-5.83.74 0 1.34.09 1.99.31V2zm0 8.5c-.58-.2-1.12-.3-1.7-.3-1.95 0-3.14 1.13-3.14 3.12 0 1.95 1.12 3.05 3.09 3.05.54 0 1.07-.07 1.75-.24v-5.63zm7.07 3.5c-.65 0-1.07.41-1.07 1.05 0 .66.42 1.07 1.07 1.07.66 0 1.08-.41 1.08-1.07 0-.64-.42-1.05-1.08-1.05zm-1.6 3.8h3.27V22h-3.27v-4.2z"
+                        fill="#4ADE80" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Django</span>
+                </div>
+
+                <!-- React.js -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#38BDF8" stroke-width="1.6">
+                      <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(0 12 12)" />
+                      <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)" />
+                      <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)" />
+                      <circle cx="12" cy="12" r="1.8" fill="#38BDF8" stroke="none" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">React.js</span>
+                </div>
+
+                <!-- Node.js -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path d="M12 2.5l8.5 4.9v9.8L12 22.1l-8.5-4.9V7.4L12 2.5z" stroke="#4ADE80" stroke-width="2"
+                        stroke-linejoin="round" />
+                      <path d="M12 7.5v9M8 10l8 4M8 14l8-4" stroke="#4ADE80" stroke-width="1.6"
+                        stroke-linecap="round" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Node.js</span>
+                </div>
+
+                <!-- Next.js -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path d="M4 4v16M4 4l12 16M16 4v10" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Next.js</span>
+                </div>
+
+                <!-- React Native -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#38BDF8" stroke-width="1.6">
+                      <ellipse cx="12" cy="12" rx="10" ry="3.8" transform="rotate(30 12 12)" />
+                      <ellipse cx="12" cy="12" rx="10" ry="3.8" transform="rotate(-30 12 12)" />
+                      <ellipse cx="12" cy="12" rx="10" ry="3.8" transform="rotate(90 12 12)" />
+                      <circle cx="12" cy="12" r="1.8" fill="#38BDF8" stroke="none" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">React Native</span>
+                </div>
+
+                <!-- Flutter -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path d="M14.314 1.5L3 12.814l3.714 3.714L18.028 5.214z" fill="#38BDF8" />
+                      <path d="M14.286 11.786L8.571 17.5l4.5 4.5H19l-5.714-5.714 4.5-4.5z" fill="#60A5FA" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Flutter</span>
+                </div>
+
+                <!-- PostgreSQL -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M12 3c-4.4 0-8 3.6-8 8 0 3.6 2.4 6.7 5.7 7.7v-3.6c-.6.2-1.2.3-1.8.3-1.2 0-2.1-.4-2.7-1 .6-.3 1.3-.5 2.1-.5.9 0 1.7.3 2.4.7v-2.8c-.7-.3-1.6-.5-2.5-.5-2.1 0-3.8 1.2-3.8 3.2 0 1.6 1.1 2.8 2.9 3.1A8 8 0 1 0 12 3z"
+                        fill="#38BDF8" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">PostgreSQL</span>
+                </div>
+
+                <!-- GitHub -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                        fill="#F1F5F9" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">GitHub</span>
+                </div>
+
+                <!-- Bitbucket -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M3 4a1 1 0 0 0-1 1.15l2.4 14a1.6 1.6 0 0 0 1.58 1.35h12.04a1 1 0 0 0 1-.85l2.4-14.5A1 1 0 0 0 20.44 4H3zm10.4 10.5h-2.8l-.7-4.2h4.2l-.7 4.2z"
+                        fill="#60A5FA" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Bitbucket</span>
+                </div>
+
+                <!-- REST APIs -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#38BDF8" stroke-width="2">
+                      <path d="M4 12h16M12 4v16" stroke-linecap="round" />
+                      <circle cx="12" cy="12" r="3" fill="#38BDF8" />
+                      <circle cx="4" cy="12" r="2" fill="#60A5FA" />
+                      <circle cx="20" cy="12" r="2" fill="#60A5FA" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">REST APIs</span>
+                </div>
+
+                <!-- Docker -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M13 11h2V9h-2v2zm-2.5 0h2V9h-2v2zm-2.5 0h2V9H8v2zm-2.5 0h2V9h-2v2zm5-2.5h2V6h-2v2.5zm-2.5 0h2V6H8v2.5zm-2.5 0h2V6h-2v2.5zm10 2.5h2V9h-2v2z"
+                        fill="#38BDF8" />
+                      <path
+                        d="M22 13.5c-.3-.2-1-.3-1.8-.2-.1-.7-.5-1.3-1.2-1.6l-.5-.2-.3.4c-.4.5-.5 1.3-.3 2-.3.2-.6.3-1 .3H3c-.4 0-.7.3-.7.7 0 1.9.9 3.7 2.7 4.7 1.7 1 3.8 1.2 5.9 1.2 5.9 0 10-3.3 10.5-7.7.1-.4 0-.6-.4-.8z"
+                        fill="#38BDF8" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Docker</span>
+                </div>
+              </div>
+
+              <!-- Set 2 (Duplicate for Seamless Infinite Loop) -->
+              <div class="hero-tech-track-group" aria-hidden="true">
+                <!-- Python -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M11.91 2C6.98 2 7.29 4.14 7.29 4.14L7.3 6.36H12v.69H5.32S2 6.67 2 11.66c0 5 2.9 4.82 2.9 4.82h1.73v-2.42s-.09-2.9 2.85-2.9h4.92s2.74.04 2.74-2.67V4.72S17.47 2 11.91 2zM9.46 3.61a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8z"
+                        fill="#38BDF8" />
+                      <path
+                        d="M12.09 22c4.93 0 4.62-2.14 4.62-2.14l-.01-2.22H12v-.69h6.68S22 17.33 22 12.34c0-5-2.9-4.82-2.9-4.82h-1.73v2.42s.09 2.9-2.85 2.9H9.6s-2.74-.04-2.74 2.67v3.77S6.53 22 12.09 22zm2.45-1.61a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8z"
+                        fill="#60A5FA" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Python</span>
+                </div>
+
+                <!-- Django -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M11.14 2h3.29v15.47c-1.74.34-3.03.45-4.44.45-4.44 0-6.74-2.02-6.74-5.69 0-3.52 2.37-5.83 5.9-5.83.74 0 1.34.09 1.99.31V2zm0 8.5c-.58-.2-1.12-.3-1.7-.3-1.95 0-3.14 1.13-3.14 3.12 0 1.95 1.12 3.05 3.09 3.05.54 0 1.07-.07 1.75-.24v-5.63zm7.07 3.5c-.65 0-1.07.41-1.07 1.05 0 .66.42 1.07 1.07 1.07.66 0 1.08-.41 1.08-1.07 0-.64-.42-1.05-1.08-1.05zm-1.6 3.8h3.27V22h-3.27v-4.2z"
+                        fill="#4ADE80" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Django</span>
+                </div>
+
+                <!-- React.js -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#38BDF8" stroke-width="1.6">
+                      <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(0 12 12)" />
+                      <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)" />
+                      <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)" />
+                      <circle cx="12" cy="12" r="1.8" fill="#38BDF8" stroke="none" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">React.js</span>
+                </div>
+
+                <!-- Node.js -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path d="M12 2.5l8.5 4.9v9.8L12 22.1l-8.5-4.9V7.4L12 2.5z" stroke="#4ADE80" stroke-width="2"
+                        stroke-linejoin="round" />
+                      <path d="M12 7.5v9M8 10l8 4M8 14l8-4" stroke="#4ADE80" stroke-width="1.6"
+                        stroke-linecap="round" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Node.js</span>
+                </div>
+
+                <!-- Next.js -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path d="M4 4v16M4 4l12 16M16 4v10" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Next.js</span>
+                </div>
+
+                <!-- React Native -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#38BDF8" stroke-width="1.6">
+                      <ellipse cx="12" cy="12" rx="10" ry="3.8" transform="rotate(30 12 12)" />
+                      <ellipse cx="12" cy="12" rx="10" ry="3.8" transform="rotate(-30 12 12)" />
+                      <ellipse cx="12" cy="12" rx="10" ry="3.8" transform="rotate(90 12 12)" />
+                      <circle cx="12" cy="12" r="1.8" fill="#38BDF8" stroke="none" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">React Native</span>
+                </div>
+
+                <!-- Flutter -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path d="M14.314 1.5L3 12.814l3.714 3.714L18.028 5.214z" fill="#38BDF8" />
+                      <path d="M14.286 11.786L8.571 17.5l4.5 4.5H19l-5.714-5.714 4.5-4.5z" fill="#60A5FA" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Flutter</span>
+                </div>
+
+                <!-- PostgreSQL -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M12 3c-4.4 0-8 3.6-8 8 0 3.6 2.4 6.7 5.7 7.7v-3.6c-.6.2-1.2.3-1.8.3-1.2 0-2.1-.4-2.7-1 .6-.3 1.3-.5 2.1-.5.9 0 1.7.3 2.4.7v-2.8c-.7-.3-1.6-.5-2.5-.5-2.1 0-3.8 1.2-3.8 3.2 0 1.6 1.1 2.8 2.9 3.1A8 8 0 1 0 12 3z"
+                        fill="#38BDF8" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">PostgreSQL</span>
+                </div>
+
+                <!-- GitHub -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                        fill="#F1F5F9" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">GitHub</span>
+                </div>
+
+                <!-- Bitbucket -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M3 4a1 1 0 0 0-1 1.15l2.4 14a1.6 1.6 0 0 0 1.58 1.35h12.04a1 1 0 0 0 1-.85l2.4-14.5A1 1 0 0 0 20.44 4H3zm10.4 10.5h-2.8l-.7-4.2h4.2l-.7 4.2z"
+                        fill="#60A5FA" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Bitbucket</span>
+                </div>
+
+                <!-- REST APIs -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#38BDF8" stroke-width="2">
+                      <path d="M4 12h16M12 4v16" stroke-linecap="round" />
+                      <circle cx="12" cy="12" r="3" fill="#38BDF8" />
+                      <circle cx="4" cy="12" r="2" fill="#60A5FA" />
+                      <circle cx="20" cy="12" r="2" fill="#60A5FA" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">REST APIs</span>
+                </div>
+
+                <!-- Docker -->
+                <div class="hero-tech-item">
+                  <div class="hero-tech-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none">
+                      <path
+                        d="M13 11h2V9h-2v2zm-2.5 0h2V9h-2v2zm-2.5 0h2V9H8v2zm-2.5 0h2V9h-2v2zm5-2.5h2V6h-2v2.5zm-2.5 0h2V6H8v2.5zm-2.5 0h2V6h-2v2.5zm10 2.5h2V9h-2v2z"
+                        fill="#38BDF8" />
+                      <path
+                        d="M22 13.5c-.3-.2-1-.3-1.8-.2-.1-.7-.5-1.3-1.2-1.6l-.5-.2-.3.4c-.4.5-.5 1.3-.3 2-.3.2-.6.3-1 .3H3c-.4 0-.7.3-.7.7 0 1.9.9 3.7 2.7 4.7 1.7 1 3.8 1.2 5.9 1.2 5.9 0 10-3.3 10.5-7.7.1-.4 0-.6-.4-.8z"
+                        fill="#38BDF8" />
+                    </svg>
+                  </div>
+                  <span class="hero-tech-name">Docker</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 01: WHY GENZOS.AI (PINNED SCROLL HORIZONTAL STEP SHOWCASE) -->
+    <section class="features-section" id="features">
+      <div class="section-one-sticky-wrap">
+        <div class="features-container">
+          <div class="section-one-card-frame">
+
+            <!-- Section 01 Hero Unit (Logo + Content) -->
+            <div class="section-one-hero-grid">
+              <div class="section-one-logo-col">
+                <img src="logo.png" class="section-one-hero-logo" alt="GenZos 3D Emblem">
+              </div>
+              <div class="section-one-content-col">
+                <div class="eyebrow-pill eyebrow-pill--section-one">
+                  <span class="eyebrow-prefix">01 — </span><span class="eyebrow-text">WHY GENZOS.AI</span>
+                </div>
+                <h2 class="section-one-heading">
+                  Move Beyond Traditional Development with AI-Powered Engineering Automation
+                </h2>
+                <p class="section-one-description">
+                  GenZos.ai enables enterprises, product companies, and technology service providers to accelerate
+                  application development, modernization, and enhancements by integrating AI across the software
+                  engineering lifecycle.
+                </p>
+              </div>
+            </div>
+
+            <!-- Contained Horizontal Step Viewport -->
+            <div class="section-one-ticker-viewport" id="sectionOneTickerViewport">
+              <div class="section-one-ticker-track" id="sectionOneTickerTrack">
+                <div class="ticker-step-item is-active" data-step="1">
+                  <span class="ticker-step-num">01</span>
+                  <span class="ticker-step-title">Natural-Language Prompt</span>
+                </div>
+                <span class="ticker-separator">—</span>
+                <div class="ticker-step-item" data-step="2">
+                  <span class="ticker-step-num">02</span>
+                  <span class="ticker-step-title">Master Input</span>
+                </div>
+                <span class="ticker-separator">—</span>
+                <div class="ticker-step-item" data-step="3">
+                  <span class="ticker-step-num">03</span>
+                  <span class="ticker-step-title">Design &amp; Development</span>
+                </div>
+                <span class="ticker-separator">—</span>
+                <div class="ticker-step-item" data-step="4">
+                  <span class="ticker-step-num">04</span>
+                  <span class="ticker-step-title">Testing &amp; Validation</span>
+                </div>
+                <span class="ticker-separator">—</span>
+                <div class="ticker-step-item" data-step="5">
+                  <span class="ticker-step-num">05</span>
+                  <span class="ticker-step-title">Validated Code Handoff</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- SECTION 02 ) -->
+
+    <!-- SECTION 02: LIFECYCLE COVERAGE (INTERACTIVE 4-CARD COMPOSITION AROUND ROTATING CENTRAL HUB) -->
+    <section class="lifecycle-section" id="lifecycle">
+      <div class="features-container">
+
+        <!-- Section Header -->
+        <div class="lifecycle-header">
+          <div class="lifecycle-header-left">
+            <div class="eyebrow-pill eyebrow-pill--section-two">
+              <span class="eyebrow-prefix">02 — </span><span class="eyebrow-text">LIFECYCLE COVERAGE</span>
+            </div>
+            <h2 class="main-heading align-left lifecycle-title">
+              One AI Platform Across Requirements, Design, Development and Testing
+            </h2>
+          </div>
+        </div>
+
+        <!-- 4-Card Squishy Interactive Grid -->
+        <div class="squishy-grid">
+
+          <!-- CARD 01: Requirements -->
+          <article class="squishy-card squishy-card--1" tabindex="0">
+            <div class="squishy-card__content">
+              <div class="squishy-card__top">
+                <span class="squishy-card__badge">01 — Requirements</span>
+              </div>
+              <h3 class="squishy-card__title">Requirements</h3>
+              <p class="squishy-card__desc">
+                Capture business inputs and Master Input Documents, then extract functional and non-functional
+                requirements with full traceability.
+              </p>
+              <div class="squishy-card__tags">
+                <span class="squishy-card__tag">BRD.pdf</span>
+                <span class="squishy-card__tag">FRD.pdf</span>
+                <span class="squishy-card__tag">SRS.md</span>
+              </div>
+            </div>
+            <div class="squishy-card__footer">
+              <button type="button" class="squishy-card__action">
+                Trace Requirements <span class="squishy-arrow">→</span>
+              </button>
+            </div>
+            <svg class="squishy-card__bg" width="320" height="384" viewBox="0 0 320 384" fill="none"
+              xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle class="squishy-shape squishy-circle" cx="160.5" cy="114.5" r="101.5" />
+              <ellipse class="squishy-shape squishy-ellipse" cx="160.5" cy="265.5" rx="101.5" ry="43.5" />
+            </svg>
+          </article>
+
+          <!-- CARD 02: Design -->
+          <article class="squishy-card squishy-card--2" tabindex="0">
+            <div class="squishy-card__content">
+              <div class="squishy-card__top">
+                <span class="squishy-card__badge">02 — Design</span>
+              </div>
+              <h3 class="squishy-card__title">Design</h3>
+              <p class="squishy-card__desc">
+                Generate application architecture across frontend, backend, database, APIs and integration points.
+              </p>
+              <div class="squishy-card__tags">
+                <span class="squishy-card__tag">architecture/</span>
+                <span class="squishy-card__tag">schema</span>
+                <span class="squishy-card__tag">service map</span>
+              </div>
+            </div>
+            <div class="squishy-card__footer">
+              <button type="button" class="squishy-card__action">
+                Generate Architecture <span class="squishy-arrow">→</span>
+              </button>
+            </div>
+            <svg class="squishy-card__bg" width="320" height="384" viewBox="0 0 320 384" fill="none"
+              xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle class="squishy-shape squishy-circle" cx="160.5" cy="114.5" r="101.5" />
+              <ellipse class="squishy-shape squishy-ellipse" cx="160.5" cy="265.5" rx="101.5" ry="43.5" />
+            </svg>
+          </article>
+
+          <!-- CARD 03: Development -->
+          <article class="squishy-card squishy-card--3" tabindex="0">
+            <div class="squishy-card__content">
+              <div class="squishy-card__top">
+                <span class="squishy-card__badge">03 — Development</span>
+              </div>
+              <h3 class="squishy-card__title">Development</h3>
+              <p class="squishy-card__desc">
+                Generate application code for interfaces, services and APIs, mapped back to the requirements that
+                produced it.
+              </p>
+              <div class="squishy-card__tags">
+                <span class="squishy-card__tag">web/</span>
+                <span class="squishy-card__tag">services/</span>
+                <span class="squishy-card__tag">api/</span>
+              </div>
+            </div>
+            <div class="squishy-card__footer">
+              <button type="button" class="squishy-card__action">
+                Build Services <span class="squishy-arrow">→</span>
+              </button>
+            </div>
+            <svg class="squishy-card__bg" width="320" height="384" viewBox="0 0 320 384" fill="none"
+              xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle class="squishy-shape squishy-circle" cx="160.5" cy="114.5" r="101.5" />
+              <ellipse class="squishy-shape squishy-ellipse" cx="160.5" cy="265.5" rx="101.5" ry="43.5" />
+            </svg>
+          </article>
+
+          <!-- CARD 04: Testing & Fixes -->
+          <article class="squishy-card squishy-card--4" tabindex="0">
+            <div class="squishy-card__content">
+              <div class="squishy-card__top">
+                <span class="squishy-card__badge">04 — Testing &amp; Fixes</span>
+              </div>
+              <h3 class="squishy-card__title">Testing &amp; Fixes</h3>
+              <p class="squishy-card__desc">
+                Generate test cases, analyze requirement coverage and correct issues found in the generated code.
+              </p>
+              <div class="squishy-card__tags">
+                <span class="squishy-card__tag">tests/</span>
+                <span class="squishy-card__tag">coverage</span>
+                <span class="squishy-card__tag">fixes</span>
+              </div>
+            </div>
+            <div class="squishy-card__footer">
+              <button type="button" class="squishy-card__action">
+                Run Automated Tests <span class="squishy-arrow">→</span>
+              </button>
+            </div>
+            <svg class="squishy-card__bg" width="320" height="384" viewBox="0 0 320 384" fill="none"
+              xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle class="squishy-shape squishy-circle" cx="160.5" cy="114.5" r="101.5" />
+              <ellipse class="squishy-shape squishy-ellipse" cx="160.5" cy="265.5" rx="101.5" ry="43.5" />
+            </svg>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- SECTION 03: THE PLATFORM (SPLIT CARD: LEFT IMAGE-3SETION.PNG + RIGHT 6 CAPABILITY CARDS) -->
+    <section class="section-three-wrapper" id="platform">
+      <div class="features-container">
+        <div class="platform-stage-card">
+
+          <!-- Left Column: image-3setion.png + Bottom Overlaid Subtext -->
+          <div class="platform-visual-col">
+            <div class="platform-image-wrap">
+              <video autoplay muted loop playsinline preload="auto" class="platform-artwork-img">
+                <source src="section-3.mp4" type="video/mp4">
+              </video>
+              <div class="platform-artwork-overlay-footer">
+                <div class="platform-overlay-tag">FROM IDEAS TO IMPACT</div>
+                <div class="platform-overlay-sub">CONNECTED &nbsp;&bull;&nbsp; INTELLIGENT &nbsp;&bull;&nbsp; BUILT FOR
+                  TOMORROW</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Header, Title, Subtitle, 6 Interactive Cards, Bottom Footer -->
+          <div class="platform-info-col">
+
+            <!-- Top Header Meta -->
+            <div class="platform-info-header">
+              <div class="eyebrow-pill eyebrow-pill--section-three">
+                <span class="eyebrow-prefix">03</span>
+                <span class="eyebrow-divider">|</span>
+                <span class="eyebrow-text">THE PLATFORM</span>
+              </div>
+              <div class="platform-possibilities-tag">
+                <span class="platform-tag-bar"></span>
+
+              </div>
+            </div>
+
+            <!-- Main Heading -->
+            <h2 class="platform-main-heading">
+              An Intelligent <span class="platform-accent-gradient">AI-Native</span> Development Automation Platform
+            </h2>
+
+            <!-- Main Description -->
+            <p class="platform-main-desc">
+              GenZos.ai brings requirements, design, development, testing and documentation into one intelligent
+              platform, so engineering teams work from a single connected system instead of disconnected tools.
+            </p>
+
+            <!-- 6 Interactive Feature Cards Grid (2 Columns x 3 Rows) -->
+            <div class="platform-cards-grid" id="platformCardsGrid" role="region" aria-label="Platform Capabilities">
+
+              <!-- Card 01: Requirements Intelligence -->
+              <div class="platform-feature-card is-active" data-feature="1" tabindex="0">
+                <div class="platform-card-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                    <polyline points="10 9 9 9 8 9" />
+                  </svg>
+                </div>
+                <div class="platform-card-text">
+                  <h4 class="platform-card-title">Requirements Intelligence</h4>
+                  <p class="platform-card-desc">Capture, analyze and structure requirements with AI.</p>
+                </div>
+              </div>
+
+              <!-- Card 02: Architecture & Design -->
+              <div class="platform-feature-card" data-feature="2" tabindex="0">
+                <div class="platform-card-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                    <path d="M2 17l10 5 10-5" />
+                    <path d="M2 12l10 5 10-5" />
+                  </svg>
+                </div>
+                <div class="platform-card-text">
+                  <h4 class="platform-card-title">Architecture &amp; Design</h4>
+                  <p class="platform-card-desc">Create scalable architectures across every layer.</p>
+                </div>
+              </div>
+
+              <!-- Card 03: AI-Powered Development -->
+              <div class="platform-feature-card" data-feature="3" tabindex="0">
+                <div class="platform-card-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6" />
+                    <polyline points="8 6 2 12 8 18" />
+                  </svg>
+                </div>
+                <div class="platform-card-text">
+                  <h4 class="platform-card-title">AI-Powered Development</h4>
+                  <p class="platform-card-desc">Generate production-ready code with multi-model intelligence.</p>
+                </div>
+              </div>
+
+              <!-- Card 04: Testing & Quality -->
+              <div class="platform-feature-card" data-feature="4" tabindex="0">
+                <div class="platform-card-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M10 2v7.31a2 2 0 0 1-.37 1.17L4.45 18A2 2 0 0 0 6.16 21h11.68a2 2 0 0 0 1.71-3l-5.18-7.52a2 2 0 0 1-.37-1.17V2" />
+                    <line x1="8.5" y1="2" x2="15.5" y2="2" />
+                    <path d="M7 16h10" />
+                  </svg>
+                </div>
+                <div class="platform-card-text">
+                  <h4 class="platform-card-title">Testing &amp; Quality</h4>
+                  <p class="platform-card-desc">Automate testing and ensure consistent quality.</p>
+                </div>
+              </div>
+
+              <!-- Card 05: Documentation -->
+              <div class="platform-feature-card" data-feature="5" tabindex="0">
+                <div class="platform-card-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="9" y1="12" x2="11" y2="12" />
+                    <line x1="9" y1="16" x2="11" y2="16" />
+                    <line x1="13" y1="12" x2="15" y2="12" />
+                    <line x1="13" y1="16" x2="15" y2="16" />
+                  </svg>
+                </div>
+                <div class="platform-card-text">
+                  <h4 class="platform-card-title">Documentation</h4>
+                  <p class="platform-card-desc">Create, update and maintain complete documentation.</p>
+                </div>
+              </div>
+
+              <!-- Card 06: Traceability & Standards -->
+              <div class="platform-feature-card" data-feature="6" tabindex="0">
+                <div class="platform-card-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="18" cy="5" r="3" />
+                    <circle cx="6" cy="12" r="3" />
+                    <circle cx="18" cy="19" r="3" />
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                  </svg>
+                </div>
+                <div class="platform-card-text">
+                  <h4 class="platform-card-title">Traceability &amp; Standards</h4>
+                  <p class="platform-card-desc">Full traceability from requirement to code with consistent output across
+                    projects.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Bottom Line & Footer Text -->
+            <div class="platform-canvas-bottom">
+              <div class="platform-bottom-accent-line"></div>
+              <div class="platform-bottom-caption">
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- SECTION 04: REQUIREMENTS TO PRODUCTION (5-CARD INTERACTIVE SHOWCASE WITH HOVER IMAGE EXPANSION) -->
+    <section class="workflow-showcase-section" id="workflow">
+      <div class="workflow-showcase-container">
+
+        <!-- Section Header -->
+        <div class="workflow-showcase-header">
+          <div class="eyebrow-pill eyebrow-pill--section-four">
+            <span class="eyebrow-prefix">04 — </span><span class="eyebrow-text">REQUIREMENTS TO PRODUCTION</span>
+          </div>
+
+          <h2 class="workflow-showcase-main-heading">
+            Transform Business Requirements into<br>
+            <span class="section-four-highlight">Deployable Software</span>
+          </h2>
+          <p class="workflow-showcase-subheading">
+            A seamless 5-step automated engineering lifecycle from raw business requirements to production-ready
+            deployments.
+          </p>
+        </div>
+
+        <!-- 5-Card Interactive Showcase Panel (Reference Groundworks Style) -->
+        <div class="workflow-showcase-panel">
+          <div class="workflow-cards-track">
+
+            <!-- Card 01: Capture Requirements -->
+            <article class="workflow-showcase-card" data-index="1" tabindex="0">
+              <div class="workflow-card-bg" style="background-image: url('step-1.png');"></div>
+              <div class="workflow-card-overlay"></div>
+              <div class="workflow-card-content">
+                <div class="workflow-card-num">Step01</div>
+                <div class="workflow-card-line"></div>
+                <h3 class="workflow-card-title">Capture Requirements</h3>
+                <p class="workflow-card-desc">Master Input Documents, stakeholder inputs, and raw business requirements
+                  parsed automatically.</p>
+                <div class="workflow-card-footer">
+                  <a href="#demo" class="workflow-card-btn">Learn More</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 02: Generate Product Documentation -->
+            <article class="workflow-showcase-card" data-index="2" tabindex="0">
+              <div class="workflow-card-bg" style="background-image: url('step-2.png');"></div>
+              <div class="workflow-card-overlay"></div>
+              <div class="workflow-card-content">
+                <div class="workflow-card-num">Step02</div>
+                <div class="workflow-card-line"></div>
+                <h3 class="workflow-card-title">Generate Documentation</h3>
+                <p class="workflow-card-desc">Generate BRD, FRD, SRS, user stories, technical specifications, and
+                  compliance docs.</p>
+                <div class="workflow-card-footer">
+                  <a href="#demo" class="workflow-card-btn">Learn More</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 03: Design Application Architecture (Middle Active Card) -->
+            <article class="workflow-showcase-card is-active" data-index="3" tabindex="0">
+              <div class="workflow-card-bg" style="background-image: url('step-3.png');"></div>
+              <div class="workflow-card-overlay"></div>
+              <div class="workflow-card-content">
+                <div class="workflow-card-num">Step03</div>
+                <div class="workflow-card-line"></div>
+                <h3 class="workflow-card-title">Design Architecture</h3>
+                <p class="workflow-card-desc">High Level Architecture, Low Level Design, database schemas, and API
+                  specifications.</p>
+                <div class="workflow-card-footer">
+                  <a href="#demo" class="workflow-card-btn">Learn More</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 04: Generate & Validate Code -->
+            <article class="workflow-showcase-card" data-index="4" tabindex="0">
+              <div class="workflow-card-bg" style="background-image: url('step-4.png');"></div>
+              <div class="workflow-card-overlay"></div>
+              <div class="workflow-card-content">
+                <div class="workflow-card-num">Step04</div>
+                <div class="workflow-card-line"></div>
+                <h3 class="workflow-card-title">Generate &amp; Validate Code</h3>
+                <p class="workflow-card-desc">Production-ready frontend, backend, APIs, unit tests, and automated
+                  validation.</p>
+                <div class="workflow-card-footer">
+                  <a href="#demo" class="workflow-card-btn">Learn More</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 05: Deploy & Maintain -->
+            <article class="workflow-showcase-card" data-index="5" tabindex="0">
+              <div class="workflow-card-bg" style="background-image: url('step-5.png');"></div>
+              <div class="workflow-card-overlay"></div>
+              <div class="workflow-card-content">
+                <div class="workflow-card-num">Step05</div>
+                <div class="workflow-card-line"></div>
+                <h3 class="workflow-card-title">Deploy &amp; Maintain</h3>
+                <p class="workflow-card-desc">Continuous enhancements, automated deployment, bug fixes, and change logs.
+                </p>
+                <div class="workflow-card-footer">
+                  <a href="#demo" class="workflow-card-btn">Learn More</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- SECTION 05: CAPABILITIES (4-CARD GRID MATCHING SECTION 02 DESIGN WITH IMAGES) -->
+    <section class="capabilities-section" id="capabilities">
+      <div class="features-container">
+
+        <!-- Section Header -->
+        <div class="capabilities-header">
+          <div class="eyebrow-pill eyebrow-pill--section-five">
+            <span class="eyebrow-prefix">05 — </span><span class="eyebrow-text">CAPABILITIES</span>
+          </div>
+
+          <h2 class="main-heading align-left capabilities-main-heading">
+            Everything Engineering Teams Need to<br>
+            <span class="section-five-highlight">Build Modern Applications</span>
+          </h2>
+        </div>
+
+        <!-- 4 Profile-Style Cards Grid (Matching Reference) -->
+        <div class="capabilities-profile-grid">
+
+          <!-- Card 01: Application Development -->
+          <article class="profile-card" tabindex="0">
+            <div class="profile-card__banner">
+              <img src="application-development.png" alt="Application Development" class="profile-card__banner-img"
+                loading="lazy" />
+              <div class="profile-card__banner-overlay"></div>
+            </div>
+
+            <div class="profile-card__body">
+              <div class="profile-card__avatar-row">
+                <div class="profile-card__avatar">
+                  <div class="profile-card__avatar-inner">
+                    <span class="avatar-num">01</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-card__info">
+                <div class="profile-card__name-row">
+                  <h3 class="profile-card__name">Application Development</h3>
+                  <svg class="verified-badge-icon" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="#2563EB" />
+                    <path d="M8.5 12l2.5 2.5 4.5-4.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="profile-card__handle">@genzos.apps</span>
+              </div>
+
+              <p class="profile-card__bio">
+                Build modern applications faster with AI-powered frontend, backend, APIs, database models, and scalable
+                architectures.
+              </p>
+
+              <div class="profile-card__action-footer">
+                <a href="#demo" class="profile-card__follow-btn">Explore</a>
+              </div>
+
+              <div class="profile-card__stats">
+                <div class="stat-item">
+                  <span class="stat-value">50+</span>
+                  <span class="stat-label">Frameworks</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">10x</span>
+                  <span class="stat-label">Dev Speed</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 02: Technology Support -->
+          <article class="profile-card" tabindex="0">
+            <div class="profile-card__banner">
+              <img src="technology-support.png" alt="Technology Support" class="profile-card__banner-img"
+                loading="lazy" />
+              <div class="profile-card__banner-overlay"></div>
+            </div>
+
+            <div class="profile-card__body">
+              <div class="profile-card__avatar-row">
+                <div class="profile-card__avatar">
+                  <div class="profile-card__avatar-inner">
+                    <span class="avatar-num">02</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-card__info">
+                <div class="profile-card__name-row">
+                  <h3 class="profile-card__name">Technology Support</h3>
+                  <svg class="verified-badge-icon" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="#2563EB" />
+                    <path d="M8.5 12l2.5 2.5 4.5-4.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="profile-card__handle">@genzos.cloud</span>
+              </div>
+
+              <p class="profile-card__bio">
+                Automate code refactoring, cloud migrations, framework upgrades, and multi-language stack transitions
+                seamlessly.
+              </p>
+
+              <div class="profile-card__action-footer">
+                <a href="#demo" class="profile-card__follow-btn">Explore</a>
+              </div>
+
+              <div class="profile-card__stats">
+                <div class="stat-item">
+                  <span class="stat-value">100%</span>
+                  <span class="stat-label">Cloud Native</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">3x</span>
+                  <span class="stat-label">Migration</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 03: Quality Engineering -->
+          <article class="profile-card" tabindex="0">
+            <div class="profile-card__banner">
+              <img src="qualityengineering.png" alt="Quality Engineering" class="profile-card__banner-img"
+                loading="lazy" />
+              <div class="profile-card__banner-overlay"></div>
+            </div>
+
+            <div class="profile-card__body">
+              <div class="profile-card__avatar-row">
+                <div class="profile-card__avatar">
+                  <div class="profile-card__avatar-inner">
+                    <span class="avatar-num">03</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-card__info">
+                <div class="profile-card__name-row">
+                  <h3 class="profile-card__name">Quality Engineering</h3>
+                  <svg class="verified-badge-icon" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="#2563EB" />
+                    <path d="M8.5 12l2.5 2.5 4.5-4.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="profile-card__handle">@genzos.qa</span>
+              </div>
+
+              <p class="profile-card__bio">
+                Automated test generation, multi-stage validation workflows, and comprehensive requirement coverage
+                analysis.
+              </p>
+
+              <div class="profile-card__action-footer">
+                <a href="#demo" class="profile-card__follow-btn">Explore</a>
+              </div>
+
+              <div class="profile-card__stats">
+                <div class="stat-item">
+                  <span class="stat-value">99.9%</span>
+                  <span class="stat-label">Accuracy</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">0</span>
+                  <span class="stat-label">Regressions</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 04: Documentation Automation -->
+          <article class="profile-card" tabindex="0">
+            <div class="profile-card__banner">
+              <img src="documentation-automation.png" alt="Documentation Automation" class="profile-card__banner-img"
+                loading="lazy" />
+              <div class="profile-card__banner-overlay"></div>
+            </div>
+
+            <div class="profile-card__body">
+              <div class="profile-card__avatar-row">
+                <div class="profile-card__avatar">
+                  <div class="profile-card__avatar-inner">
+                    <span class="avatar-num">04</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-card__info">
+                <div class="profile-card__name-row">
+                  <h3 class="profile-card__name">Documentation</h3>
+                  <svg class="verified-badge-icon" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="#2563EB" />
+                    <path d="M8.5 12l2.5 2.5 4.5-4.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="profile-card__handle">@genzos.docs</span>
+              </div>
+
+              <p class="profile-card__bio">
+                Automatically generate technical specifications, BRDs, FRDs, system architectures, and live API
+                documentation.
+              </p>
+
+              <div class="profile-card__action-footer">
+                <a href="#demo" class="profile-card__follow-btn">Explore</a>
+              </div>
+
+              <div class="profile-card__stats">
+                <div class="stat-item">
+                  <span class="stat-value">100%</span>
+                  <span class="stat-label">Coverage</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">Real-Time</span>
+                  <span class="stat-label">Docs</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECTION 06: WHO IT'S FOR (REFERENCE-STYLE FLOWING PROCESS MAP) -->
+    <section class="audience-section" id="solutions">
+      <div class="audience-container">
+
+        <div class="audience-split-layout">
+
+          <!-- LEFT SIDE: Header & Information -->
+          <div class="audience-info-col">
+            <div class="eyebrow-pill eyebrow-pill--section-six">
+              <span class="eyebrow-prefix">06 — </span><span class="eyebrow-text">WHO IT'S FOR</span>
+            </div>
+
+            <h2 class="audience-main-heading">
+              Designed for Organizations<br>
+              <span class="section-six-highlight">Delivering Software at Scale</span>
+            </h2>
+
+            <p class="audience-subheading">
+              GenZos.ai helps organizations accelerate software delivery, modernization, and AI-powered engineering at
+              scale.
+            </p>
+
+            <a href="#demo" class="audience-cta-btn">
+              <span>Get Started</span>
+              <span class="cta-arrow">↗</span>
+            </a>
+          </div>
+
+          <!-- RIGHT SIDE: Flowing Process Path & 4 Stages -->
+          <div class="audience-path-col">
+
+            <!-- Desktop Flowing Blue Curve SVG -->
+            <svg class="audience-curve-svg audience-desktop-svg" viewBox="0 0 1000 580" fill="none"
+              xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="blueFlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#2563EB" stop-opacity="0.25" />
+                  <stop offset="20%" stop-color="#2563EB" stop-opacity="0.95" />
+                  <stop offset="80%" stop-color="#2563EB" stop-opacity="0.95" />
+                  <stop offset="100%" stop-color="#2563EB" stop-opacity="0.35" />
+                </linearGradient>
+                <filter id="bluePathGlow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="5" result="blur" />
+                  <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                </filter>
+              </defs>
+
+              <!-- Concentric Radar / Target Arcs in bottom right corner -->
+              <g class="radar-arcs" opacity="0.08" stroke="currentColor" stroke-width="1">
+                <circle cx="900" cy="540" r="160" fill="none" stroke-dasharray="3 3" />
+                <circle cx="900" cy="540" r="260" fill="none" stroke-dasharray="4 4" />
+                <circle cx="900" cy="540" r="360" fill="none" stroke-dasharray="5 5" />
+                <circle cx="900" cy="540" r="460" fill="none" stroke-dasharray="6 6" />
+                <circle cx="900" cy="540" r="560" fill="none" stroke-dasharray="7 7" />
+              </g>
+
+              <!-- Continuous smooth rising Bézier curve passing directly through Node 1 (100,380), Node 2 (360,290), Node 3 (630,200), Node 4 (890,110) -->
+              <path class="flowing-path-glow"
+                d="M -30,420 C 20,420 60,380 100,380 C 180,380 260,290 360,290 C 450,290 530,200 630,200 C 720,200 800,110 890,110 C 935,110 970,75 1020,50" />
+              <path class="flowing-path-main" id="audiencePathMain"
+                d="M -30,420 C 20,420 60,380 100,380 C 180,380 260,290 360,290 C 450,290 530,200 630,200 C 720,200 800,110 890,110 C 935,110 970,75 1020,50" />
+            </svg>
+
+            <!-- Mobile Flowing Orange Curve SVG -->
+            <svg class="audience-curve-svg audience-mobile-svg" viewBox="0 0 60 700" fill="none"
+              xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+              <path class="flowing-path-glow"
+                d="M 30,0 C 30,30 30,50 30,70 C 30,105 45,145 45,180 C 45,215 30,225 30,250 C 30,285 15,325 15,360 C 15,395 30,405 30,430 C 30,465 45,505 45,540 C 45,575 30,585 30,610 L 30,700" />
+              <path class="flowing-path-main"
+                d="M 30,0 C 30,30 30,50 30,70 C 30,105 45,145 45,180 C 45,215 30,225 30,250 C 30,285 15,325 15,360 C 15,395 30,405 30,430 C 30,465 45,505 45,540 C 45,575 30,585 30,610 L 30,700" />
+            </svg>
+
+            <!-- 4 Stage Elements Placed Along the Path -->
+            <div class="stage-track-container">
+
+              <!-- STAGE 01 -->
+              <div class="stage-item stage-item--1" data-stage="1">
+                <div class="stage-watermark">01</div>
+
+                <div class="stage-node-container">
+                  <div class="stage-node-outer">
+                    <div class="stage-node-inner">
+                      <svg class="stage-node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                        <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                        <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                        <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                      </svg>
+                    </div>
+                    <span class="node-glow-point"></span>
+                  </div>
+                </div>
+
+                <div class="stage-vertical-connector">
+                  <span class="v-line"></span>
+                  <span class="v-dot"></span>
+                </div>
+
+                <div class="stage-content">
+                  <h3 class="stage-title">Enterprise IT Teams</h3>
+                  <p class="stage-desc">Accelerate internal application development and modernization.</p>
+                </div>
+              </div>
+
+              <!-- STAGE 02 -->
+              <div class="stage-item stage-item--2" data-stage="2">
+                <div class="stage-watermark">02</div>
+
+                <div class="stage-node-container">
+                  <div class="stage-node-outer">
+                    <div class="stage-node-inner">
+                      <svg class="stage-node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                        <path d="M2 17l10 5 10-5"></path>
+                        <path d="M2 12l10 5 10-5"></path>
+                      </svg>
+                    </div>
+                    <span class="node-glow-point"></span>
+                  </div>
+                </div>
+
+                <div class="stage-vertical-connector">
+                  <span class="v-line"></span>
+                  <span class="v-dot"></span>
+                </div>
+
+                <div class="stage-content">
+                  <h3 class="stage-title">Product Companies</h3>
+                  <p class="stage-desc">Deliver product features faster with AI-powered engineering workflows.</p>
+                </div>
+              </div>
+
+              <!-- STAGE 03 -->
+              <div class="stage-item stage-item--3" data-stage="3">
+                <div class="stage-watermark">03</div>
+
+                <div class="stage-node-container">
+                  <div class="stage-node-outer">
+                    <div class="stage-node-inner">
+                      <svg class="stage-node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                        <line x1="14" y1="4" x2="10" y2="20"></line>
+                      </svg>
+                    </div>
+                    <span class="node-glow-point"></span>
+                  </div>
+                </div>
+
+                <div class="stage-vertical-connector">
+                  <span class="v-line"></span>
+                  <span class="v-dot"></span>
+                </div>
+
+                <div class="stage-content">
+                  <h3 class="stage-title">Software Development Companies</h3>
+                  <p class="stage-desc">Increase delivery capacity and improve project execution.</p>
+                </div>
+              </div>
+
+              <!-- STAGE 04 -->
+              <div class="stage-item stage-item--4" data-stage="4">
+                <div class="stage-watermark">04</div>
+
+                <div class="stage-node-container">
+                  <div class="stage-node-outer">
+                    <div class="stage-node-inner">
+                      <svg class="stage-node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path
+                          d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83">
+                        </path>
+                      </svg>
+                    </div>
+                    <span class="node-glow-point"></span>
+                  </div>
+                </div>
+
+                <div class="stage-vertical-connector">
+                  <span class="v-line"></span>
+                  <span class="v-dot"></span>
+                </div>
+
+                <div class="stage-content">
+                  <h3 class="stage-title">AI/ML Companies</h3>
+                  <p class="stage-desc">Rapidly build AI-powered applications and enterprise solutions.</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- SECTION 06 end -->
+
+    <!-- SECTION 07: COLLABORATION & GOVERNANCE (TRACEABILITY MATRIX & 6 CAPABILITY CARDS) -->
+    <section class="collab-section" id="traceability">
+      <div class="collab-container">
+
+        <!-- Top Header Area -->
+        <div class="collab-header">
+          <div class="eyebrow-pill eyebrow-pill--section-seven">
+            <span class="eyebrow-prefix">07 — </span><span class="eyebrow-text">COLLABORATION &amp; GOVERNANCE</span>
+          </div>
+
+          <h2 class="collab-main-heading">
+            Enterprise Collaboration with Complete <span class="section-seven-highlight">Development Traceability</span>
+          </h2>
+
+          <p class="collab-subheading">
+            Requirements, decisions and generated assets stay connected in one workspace, so every stakeholder sees the
+            same source of truth.
+          </p>
+        </div>
+
+        <!-- Unified Bento Frame Container -->
+        <div class="collab-unified-frame">
+
+          <!-- Upper Section: Interactive Traceability Matrix Dashboard -->
+          <div class="collab-matrix-card">
+
+            <!-- Matrix Top Header Row -->
+            <div class="matrix-dashboard-header">
+              <div class="matrix-dash-left">
+                <div class="matrix-app-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <div class="matrix-dash-titles">
+                  <h3 class="matrix-dash-title">Traceability Matrix</h3>
+                  <p class="matrix-dash-subtitle">View how requirements are linked to code, documents, tests and
+                    deployments.</p>
+                </div>
+              </div>
+
+              <div class="matrix-dash-actions">
+                <div class="matrix-dash-search">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <input type="text" id="matrixSearchInput" class="matrix-dash-input"
+                    placeholder="Search requirements, assets..." aria-label="Search requirements" />
+                </div>
+                <button type="button" id="matrixFiltersBtn" class="matrix-filters-btn">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="21" x2="4" y2="14"></line>
+                    <line x1="4" y1="10" x2="4" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12" y2="3"></line>
+                    <line x1="20" y1="21" x2="20" y2="16"></line>
+                    <line x1="20" y1="12" x2="20" y2="3"></line>
+                    <line x1="1" y1="14" x2="7" y2="14"></line>
+                    <line x1="9" y1="8" x2="15" y2="8"></line>
+                    <line x1="17" y1="16" x2="23" y2="16"></line>
+                  </svg>
+                  <span>Filters</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Full Dashboard Matrix Table -->
+            <div class="matrix-table-wrap">
+              <table class="matrix-table matrix-table--full">
+                <thead>
+                  <tr>
+                    <th class="th-req">REQ ID</th>
+                    <th class="th-asset">LINKED ASSET</th>
+                    <th class="th-type">TYPE</th>
+                    <th class="th-status">STATUS</th>
+                    <th class="th-owners">OWNERS</th>
+                    <th class="th-date">UPDATED</th>
+                    <th class="th-actions">ACTIONS</th>
+                  </tr>
+                </thead>
+                <tbody id="matrixTableBody">
+                  <tr class="matrix-row" data-step="1">
+                    <td class="td-req"><span class="row-indicator row-indicator--pink"></span><span
+                        class="req-id-blue">REQ-114</span></td>
+                    <td class="td-asset"><span class="asset-path-code">services/claims/api.py</span></td>
+                    <td class="td-type"><span class="asset-type-badge asset-type--code"><svg viewBox="0 0 24 24"
+                          width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5">
+                          <polyline points="16 18 22 12 16 6"></polyline>
+                          <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg> Code</span></td>
+                    <td class="td-status"><span class="matrix-status-tag matrix-status--linked"><span
+                          class="status-bullet"></span> Linked</span></td>
+                    <td class="td-owners">
+                      <div class="owners-avatar-group"><span class="owner-avatar">JD</span><span
+                          class="owner-avatar">SK</span></div>
+                    </td>
+                    <td class="td-date">Sep 10, 2025</td>
+                    <td class="td-actions"><button type="button" class="matrix-more-btn"
+                        aria-label="Row options">•••</button></td>
+                  </tr>
+
+                  <tr class="matrix-row" data-step="2">
+                    <td class="td-req"><span class="row-indicator row-indicator--amber"></span><span
+                        class="req-id-blue">REQ-115</span></td>
+                    <td class="td-asset"><span class="asset-path-code">web/IntakeForm.tsx</span></td>
+                    <td class="td-type"><span class="asset-type-badge asset-type--frontend"><svg viewBox="0 0 24 24"
+                          width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                          <line x1="3" y1="9" x2="21" y2="9"></line>
+                        </svg> Frontend</span></td>
+                    <td class="td-status"><span class="matrix-status-tag matrix-status--linked"><span
+                          class="status-bullet"></span> Linked</span></td>
+                    <td class="td-owners">
+                      <div class="owners-avatar-group"><span class="owner-avatar">PR</span><span
+                          class="owner-avatar">AL</span></div>
+                    </td>
+                    <td class="td-date">Sep 10, 2025</td>
+                    <td class="td-actions"><button type="button" class="matrix-more-btn"
+                        aria-label="Row options">•••</button></td>
+                  </tr>
+
+                  <tr class="matrix-row" data-step="3">
+                    <td class="td-req"><span class="row-indicator row-indicator--magenta"></span><span
+                        class="req-id-blue">REQ-121</span></td>
+                    <td class="td-asset"><span class="asset-path-code">tests/test_sla_timer.py</span></td>
+                    <td class="td-type"><span class="asset-type-badge asset-type--test"><svg viewBox="0 0 24 24"
+                          width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                          <path
+                            d="M10 2v7.31a2 2 0 0 1-.37 1.17L4.45 18A2 2 0 0 0 6.16 21h11.68a2 2 0 0 0 1.71-3l-5.18-7.52a2 2 0 0 1-.37-1.17V2">
+                          </path>
+                        </svg> Test</span></td>
+                    <td class="td-status"><span class="matrix-status-tag matrix-status--review"><span
+                          class="status-bullet"></span> In review</span></td>
+                    <td class="td-owners">
+                      <div class="owners-avatar-group"><span class="owner-avatar">SK</span><span
+                          class="owner-avatar">TM</span></div>
+                    </td>
+                    <td class="td-date">Sep 09, 2025</td>
+                    <td class="td-actions"><button type="button" class="matrix-more-btn"
+                        aria-label="Row options">•••</button></td>
+                  </tr>
+
+                  <tr class="matrix-row is-active" data-step="4">
+                    <td class="td-req"><span class="row-indicator row-indicator--blue"></span><span
+                        class="req-id-blue">REQ-133</span></td>
+                    <td class="td-asset"><span class="asset-path-code">docs/SRS.md#approvals</span></td>
+                    <td class="td-type"><span class="asset-type-badge asset-type--doc"><svg viewBox="0 0 24 24"
+                          width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                          <polyline points="14 2 14 8 20 8"></polyline>
+                        </svg> Document</span></td>
+                    <td class="td-status"><span class="matrix-status-tag matrix-status--linked"><span
+                          class="status-bullet"></span> Linked</span></td>
+                    <td class="td-owners">
+                      <div class="owners-avatar-group"><span class="owner-avatar">JD</span><span
+                          class="owner-avatar">PR</span></div>
+                    </td>
+                    <td class="td-date">Sep 09, 2025</td>
+                    <td class="td-actions"><button type="button" class="matrix-more-btn"
+                        aria-label="Row options">•••</button></td>
+                  </tr>
+
+                  <tr class="matrix-row" data-step="5">
+                    <td class="td-req"><span class="row-indicator row-indicator--rose"></span><span
+                        class="req-id-blue">REQ-140</span></td>
+                    <td class="td-asset"><span class="asset-path-code">services/audit/log.py</span></td>
+                    <td class="td-type"><span class="asset-type-badge asset-type--backend"><svg viewBox="0 0 24 24"
+                          width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                          <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                          <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                          <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                          <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                        </svg> Backend</span></td>
+                    <td class="td-status"><span class="matrix-status-tag matrix-status--queued"><span
+                          class="status-bullet"></span> Queued</span></td>
+                    <td class="td-owners">
+                      <div class="owners-avatar-group"><span class="owner-avatar">AL</span><span
+                          class="owner-avatar">TM</span></div>
+                    </td>
+                    <td class="td-date">Sep 08, 2025</td>
+                    <td class="td-actions"><button type="button" class="matrix-more-btn"
+                        aria-label="Row options">•••</button></td>
+                  </tr>
+
+                  <tr class="matrix-row" data-step="6">
+                    <td class="td-req"><span class="row-indicator row-indicator--teal"></span><span
+                        class="req-id-blue">REQ-148</span></td>
+                    <td class="td-asset"><span class="asset-path-code">workflows/deploy_gate.yaml</span></td>
+                    <td class="td-type"><span class="asset-type-badge asset-type--devops"><svg viewBox="0 0 24 24"
+                          width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                          <circle cx="12" cy="12" r="3"></circle>
+                          <path
+                            d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                          </path>
+                        </svg> DevOps</span></td>
+                    <td class="td-status"><span class="matrix-status-tag matrix-status--linked"><span
+                          class="status-bullet"></span> Linked</span></td>
+                    <td class="td-owners">
+                      <div class="owners-avatar-group"><span class="owner-avatar">SK</span><span
+                          class="owner-avatar">JD</span></div>
+                    </td>
+                    <td class="td-date">Sep 08, 2025</td>
+                    <td class="td-actions"><button type="button" class="matrix-more-btn"
+                        aria-label="Row options">•••</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Matrix Bottom Pagination & Add Requirement Bar -->
+            <div class="matrix-dashboard-footer">
+              <div class="matrix-footer-count">
+                Showing <strong>6</strong> of <strong>148</strong> requirements
+              </div>
+
+              <div class="matrix-pagination-group" id="matrixPaginationGroup">
+                <button type="button" class="matrix-page-nav-btn" data-page-nav="prev"
+                  aria-label="Previous page">‹</button>
+                <button type="button" class="matrix-page-num is-active" data-page="1">1</button>
+                <button type="button" class="matrix-page-num" data-page="2">2</button>
+                <button type="button" class="matrix-page-num" data-page="3">3</button>
+                <button type="button" class="matrix-page-num" data-page="4">4</button>
+                <button type="button" class="matrix-page-num" data-page="5">5</button>
+                <span class="matrix-page-dots">...</span>
+                <button type="button" class="matrix-page-num" data-page="25">25</button>
+                <button type="button" class="matrix-page-nav-btn" data-page-nav="next" aria-label="Next page">›</button>
+              </div>
+
+              <div class="matrix-footer-actions">
+                <button type="button" id="matrixAddReqBtn" class="matrix-add-req-btn">
+                  <span class="matrix-add-plus">+</span>
+                  <span>Add Requirement</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Divider Line -->
+          <div class="collab-frame-divider" aria-hidden="true"></div>
+
+          <!-- Lower Section: 6 Capability Cards (All in 1 Row with Descriptions & Circular Action Buttons) -->
+          <div class="collab-steps-grid" id="collabStepsGrid">
+
+            <!-- Card 1: Multi-stakeholder -->
+            <div class="collab-step-card" data-step="1" tabindex="0">
+              <div class="collab-step-top">
+                <div class="collab-step-icon-box icon-bg--blue">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="collab-step-title">Multi-stakeholder requirement collaboration</h4>
+              <p class="collab-step-desc">Bring product, engineering and business together.</p>
+              <div class="collab-step-bottom">
+                <button type="button" class="collab-step-circle-btn" aria-label="View multi-stakeholder details">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 2: Role-based access control -->
+            <div class="collab-step-card" data-step="2" tabindex="0">
+              <div class="collab-step-top">
+                <div class="collab-step-icon-box icon-bg--purple">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <polyline points="9 12 11 14 15 10"></polyline>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="collab-step-title">Role-based access control</h4>
+              <p class="collab-step-desc">Ensure the right people see the right information.</p>
+              <div class="collab-step-bottom">
+                <button type="button" class="collab-step-circle-btn" aria-label="View access control details">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 3: Centralized project workspace -->
+            <div class="collab-step-card" data-step="3" tabindex="0">
+              <div class="collab-step-top">
+                <div class="collab-step-icon-box icon-bg--green">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="7" height="7" rx="1.5"></rect>
+                    <rect x="14" y="3" width="7" height="7" rx="1.5"></rect>
+                    <rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
+                    <rect x="3" y="14" width="7" height="7" rx="1.5"></rect>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="collab-step-title">Centralized project workspace</h4>
+              <p class="collab-step-desc">All assets, discussions and decisions in one place.</p>
+              <div class="collab-step-bottom">
+                <button type="button" class="collab-step-circle-btn" aria-label="View centralized workspace details">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 4: Version management (Active) -->
+            <div class="collab-step-card is-active" data-step="4" tabindex="0">
+              <div class="collab-step-top">
+                <div class="collab-step-icon-box icon-bg--primary-blue">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="1 4 1 10 7 10"></polyline>
+                    <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                    <polyline points="12 7 12 12 15 15"></polyline>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="collab-step-title">Version management</h4>
+              <p class="collab-step-desc">Track changes and maintain full history.</p>
+              <div class="collab-step-bottom">
+                <button type="button" class="collab-step-circle-btn" aria-label="View version management details">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 5: Requirement-to-code traceability -->
+            <div class="collab-step-card" data-step="5" tabindex="0">
+              <div class="collab-step-top">
+                <div class="collab-step-icon-box icon-bg--orange">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="collab-step-title">Requirement-to-code traceability</h4>
+              <p class="collab-step-desc">See real-time links across your development lifecycle.</p>
+              <div class="collab-step-bottom">
+                <button type="button" class="collab-step-circle-btn" aria-label="View requirement traceability details">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 6: Team collaboration workflows -->
+            <div class="collab-step-card" data-step="6" tabindex="0">
+              <div class="collab-step-top">
+                <div class="collab-step-icon-box icon-bg--pink">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    <polygon
+                      points="12 11 12.8 12.8 14.8 13.1 13.4 14.5 13.7 16.5 12 15.5 10.3 16.5 10.6 14.5 9.2 13.1 11.2 12.8 12 11">
+                    </polygon>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="collab-step-title">Team collaboration workflows</h4>
+              <p class="collab-step-desc">Streamline reviews, approvals and releases.</p>
+              <div class="collab-step-bottom">
+                <button type="button" class="collab-step-circle-btn" aria-label="View team collaboration details">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 08: MULTI-MODEL INTELLIGENCE -->
+    <section class="models-section" id="intelligence">
+      <div class="models-container">
+
+        <!-- Section Header (Brand Eyebrow & Accents) -->
+        <div class="models-header">
+          <div class="eyebrow-pill eyebrow-pill--section-eight">
+            <span class="eyebrow-prefix">08 — </span><span class="eyebrow-text">MULTI-MODEL INTELLIGENCE</span>
+          </div>
+
+          <h2 class="models-main-heading">
+            Powered by Advanced AI Models for <span class="section-eight-highlight">Enterprise Development</span>
+          </h2>
+
+          <p class="models-subheading">
+            Leverage multiple AI models based on project requirements, complexity, and performance needs.
+          </p>
+        </div>
+
+        <!-- 4 Profile-Style Cards Grid (Section 05 Architecture without Banner Images) -->
+        <div class="capabilities-profile-grid models-profile-grid">
+
+          <!-- Card 01: Multi-Model AI Orchestration -->
+          <article class="profile-card profile-card--no-image" tabindex="0">
+            <div class="profile-card__body">
+              <div class="profile-card__avatar-row">
+                <div class="profile-card__avatar">
+                  <div class="profile-card__avatar-inner">
+                    <span class="avatar-num">01</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-card__info">
+                <div class="profile-card__name-row">
+                  <h3 class="profile-card__name">Multi-Model Orchestration</h3>
+                  <svg class="verified-badge-icon" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="#2563EB" />
+                    <path d="M8.5 12l2.5 2.5 4.5-4.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="profile-card__handle">@genzos.orchestration</span>
+              </div>
+
+              <p class="profile-card__bio">
+                Tasks route intelligently to the foundation or domain-specific model best suited to requirements across
+                the engineering lifecycle.
+              </p>
+
+              <div class="profile-card__action-footer">
+                <a href="#demo" class="profile-card__follow-btn">Explore</a>
+              </div>
+
+              <div class="profile-card__stats">
+                <div class="stat-item">
+                  <span class="stat-value">Multi-LLM</span>
+                  <span class="stat-label">Routing</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">100%</span>
+                  <span class="stat-label">Adaptive</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 02: Model Selection Based on Tasks -->
+          <article class="profile-card profile-card--no-image" tabindex="0">
+            <div class="profile-card__body">
+              <div class="profile-card__avatar-row">
+                <div class="profile-card__avatar">
+                  <div class="profile-card__avatar-inner">
+                    <span class="avatar-num">02</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-card__info">
+                <div class="profile-card__name-row">
+                  <h3 class="profile-card__name">Task-Based Selection</h3>
+                  <svg class="verified-badge-icon" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="#2563EB" />
+                    <path d="M8.5 12l2.5 2.5 4.5-4.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="profile-card__handle">@genzos.routing</span>
+              </div>
+
+              <p class="profile-card__bio">
+                Reasoning, code generation, refactoring, and long-context architecture tasks are split and routed
+                automatically.
+              </p>
+
+              <div class="profile-card__action-footer">
+                <a href="#demo" class="profile-card__follow-btn">Explore</a>
+              </div>
+
+              <div class="profile-card__stats">
+                <div class="stat-item">
+                  <span class="stat-value">Zero Latency</span>
+                  <span class="stat-label">Routing</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">Task-Tuned</span>
+                  <span class="stat-label">Precision</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 03: Enterprise AI Flexibility -->
+          <article class="profile-card profile-card--no-image" tabindex="0">
+            <div class="profile-card__body">
+              <div class="profile-card__avatar-row">
+                <div class="profile-card__avatar">
+                  <div class="profile-card__avatar-inner">
+                    <span class="avatar-num">03</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-card__info">
+                <div class="profile-card__name-row">
+                  <h3 class="profile-card__name">Enterprise AI Flexibility</h3>
+                  <svg class="verified-badge-icon" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="#2563EB" />
+                    <path d="M8.5 12l2.5 2.5 4.5-4.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="profile-card__handle">@genzos.enterprise</span>
+              </div>
+
+              <p class="profile-card__bio">
+                Model choices adapt dynamically to enterprise policies, privacy boundaries, compliance, and multi-cloud
+                stacks.
+              </p>
+
+              <div class="profile-card__action-footer">
+                <a href="#demo" class="profile-card__follow-btn">Explore</a>
+              </div>
+
+              <div class="profile-card__stats">
+                <div class="stat-item">
+                  <span class="stat-value">SOC-2</span>
+                  <span class="stat-label">Compliant</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">Zero-Data</span>
+                  <span class="stat-label">Retention</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 04: Continuous Capability Expansion -->
+          <article class="profile-card profile-card--no-image" tabindex="0">
+            <div class="profile-card__body">
+              <div class="profile-card__avatar-row">
+                <div class="profile-card__avatar">
+                  <div class="profile-card__avatar-inner">
+                    <span class="avatar-num">04</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-card__info">
+                <div class="profile-card__name-row">
+                  <h3 class="profile-card__name">Capability Expansion</h3>
+                  <svg class="verified-badge-icon" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                    <circle cx="12" cy="12" r="10" fill="#2563EB" />
+                    <path d="M8.5 12l2.5 2.5 4.5-4.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="profile-card__handle">@genzos.expansion</span>
+              </div>
+
+              <p class="profile-card__bio">
+                New state-of-the-art foundation models and specialized coding models integrate into the platform with
+                zero rework.
+              </p>
+
+              <div class="profile-card__action-footer">
+                <a href="#demo" class="profile-card__follow-btn">Explore</a>
+              </div>
+
+              <div class="profile-card__stats">
+                <div class="stat-item">
+                  <span class="stat-value">Plug &amp; Play</span>
+                  <span class="stat-label">Models</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">Future-Proof</span>
+                  <span class="stat-label">Stack</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 09: INTEGRATIONS (REDESIGNED TO MOCUKP WITH SECTION-9 BACKGROUND.PNG) -->
+    <section class="integrations-section" id="governance">
+      <div class="integrations-container">
+
+        <!-- Top Row Split: Left Info & Filters + Right 3D App Cloud with Handnote -->
+        <div class="integrations-top-split">
+
+          <!-- Left Info Column -->
+          <div class="integrations-left-col">
+            <div class="eyebrow-pill eyebrow-pill--section-nine">
+              <span class="eyebrow-prefix">09 — </span><span class="eyebrow-text">INTEGRATIONS</span>
+            </div>
+
+            <h2 class="integrations-main-heading">
+              Works with Your Existing <span class="section-nine-highlight">Engineering Environment</span>
+            </h2>
+
+            <p class="integrations-subheading">
+              Connect repositories, services and existing application assets so agents work inside the environment your
+              teams already use.
+            </p>
+
+            <!-- Search and Filter Bar Row -->
+            <div class="integrations-controls-row">
+              <div class="integrations-search-wrap">
+                <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" class="integrations-search-input" id="integrationsSearchInput"
+                  placeholder="Search integrations..." aria-label="Search integrations">
+              </div>
+
+              <div class="integrations-filter-bar" id="integrationsFilterBar" aria-label="Integration filters">
+                <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+                <button type="button" class="filter-btn" data-filter="repositories">Repositories</button>
+                <button type="button" class="filter-btn" data-filter="apis">APIs</button>
+                <button type="button" class="filter-btn" data-filter="services">Services</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Visual Column with 3D Floating Apps -->
+          <div class="integrations-right-col">
+            <div class="integrations-hero-visual-wrap">
+              <img src="section-9 background.png" alt="Engineering Integrations Ecosystem" class="integrations-hero-img"
+                loading="lazy">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 6 Integration Cards (3-Column Grid) -->
+        <div class="integrations-grid" id="integrationsGrid">
+
+          <!-- 01: GitHub -->
+          <article class="integration-card" data-category="repositories" tabindex="0">
+            <div class="integration-card-left">
+              <div class="integration-icon-wrap integration-icon--github">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z">
+                  </path>
+                </svg>
+              </div>
+              <div class="integration-card-info">
+                <h3 class="integration-card__title">GitHub</h3>
+                <p class="integration-card__desc">Branch, commit and pull-request workflows</p>
+              </div>
+            </div>
+            <div class="integration-card-arrow">›</div>
+          </article>
+
+          <!-- 02: Bitbucket -->
+          <article class="integration-card" data-category="repositories" tabindex="0">
+            <div class="integration-card-left">
+              <div class="integration-icon-wrap integration-icon--bitbucket">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="#2563EB">
+                  <path d="M4 4l2.5 16h11L20 4H4zm10.5 11h-5L8 8h8l-1.5 7z"></path>
+                </svg>
+              </div>
+              <div class="integration-card-info">
+                <h3 class="integration-card__title">Bitbucket</h3>
+                <p class="integration-card__desc">Enterprise repository access and synchronization</p>
+              </div>
+            </div>
+            <div class="integration-card-arrow">›</div>
+          </article>
+
+          <!-- 03: Enterprise Repositories -->
+          <article class="integration-card" data-category="repositories" tabindex="0">
+            <div class="integration-card-left">
+              <div class="integration-icon-wrap integration-icon--database">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div class="integration-card-info">
+                <h3 class="integration-card__title">Enterprise Repositories</h3>
+                <p class="integration-card__desc">Connect self-hosted and internal source control</p>
+              </div>
+            </div>
+            <div class="integration-card-arrow">›</div>
+          </article>
+
+          <!-- 04: APIs & External Services -->
+          <article class="integration-card" data-category="apis" tabindex="0">
+            <div class="integration-card-left">
+              <div class="integration-icon-wrap integration-icon--api">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path
+                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                  </path>
+                </svg>
+              </div>
+              <div class="integration-card-info">
+                <h3 class="integration-card__title">APIs &amp; External Services</h3>
+                <p class="integration-card__desc">Connect APIs, services, and integration endpoints</p>
+              </div>
+            </div>
+            <div class="integration-card-arrow">›</div>
+          </article>
+
+          <!-- 05: Existing Application Assets -->
+          <article class="integration-card" data-category="services" tabindex="0">
+            <div class="integration-card-left">
+              <div class="integration-icon-wrap integration-icon--assets">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#F59E0B" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  <line x1="12" y1="11" x2="12" y2="17"></line>
+                  <line x1="9" y1="14" x2="15" y2="14"></line>
+                </svg>
+              </div>
+              <div class="integration-card-info">
+                <h3 class="integration-card__title">Existing Application Assets</h3>
+                <p class="integration-card__desc">Work with legacy code, schemas, and documentation</p>
+              </div>
+            </div>
+            <div class="integration-card-arrow">›</div>
+          </article>
+
+          <!-- 06: OpenAPI -->
+          <article class="integration-card" data-category="apis" tabindex="0">
+            <div class="integration-card-left">
+              <div class="integration-icon-wrap integration-icon--openapi">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <div class="integration-card-info">
+                <h3 class="integration-card__title">OpenAPI</h3>
+                <p class="integration-card__desc">Import API specifications and map endpoints automatically</p>
+              </div>
+            </div>
+            <div class="integration-card-arrow">›</div>
+          </article>
+
+        </div>
+
+        <!-- Full-Width SYNC ACTIVITY & WORKSPACE STATUS Panel -->
+        <div class="integration-sync-card">
+          <!-- Top Global Card Header -->
+          <div class="sync-card-header">
+            <div class="sync-header-left">
+              <div class="sync-main-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
+                </svg>
+              </div>
+              <div class="sync-header-title-wrap">
+                <h3 class="sync-header-title"><span class="sync-blue-word">Sync</span> Activity</h3>
+                <p class="sync-header-subtitle">Real-time updates from your connected workspace</p>
+              </div>
+            </div>
+            <div class="sync-header-right">
+              <span class="sync-workspace-status-badge">Connected to Workspace</span>
+            </div>
+          </div>
+
+          <!-- 2-Column Body Layout -->
+          <div class="sync-card-columns-grid">
+
+            <!-- Left Column: 5 Timeline Rows -->
+            <div class="sync-timeline-column">
+
+              <!-- Row 1: github / acme-erp -->
+              <div class="sync-timeline-card-row">
+                <span class="sync-time-chip">09:41</span>
+                <div class="sync-chip-icon icon-github">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                    <path
+                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                  </svg>
+                </div>
+                <span class="sync-row-target-name">github / acme-erp</span>
+                <span class="sync-row-metric"><strong class="sync-accent-val">14 services</strong> discovered</span>
+                <span class="sync-row-ago">2 min ago</span>
+              </div>
+
+              <!-- Row 2: OpenAPI spec imported -->
+              <div class="sync-timeline-card-row">
+                <span class="sync-time-chip">09:42</span>
+                <div class="sync-chip-icon icon-openapi">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                  </svg>
+                </div>
+                <span class="sync-row-target-name">OpenAPI spec imported</span>
+                <span class="sync-row-metric"><strong class="sync-accent-val">62 endpoints</strong> mapped</span>
+                <span class="sync-row-ago">5 min ago</span>
+              </div>
+
+              <!-- Row 3: schema analyzed -->
+              <div class="sync-timeline-card-row">
+                <span class="sync-time-chip">09:44</span>
+                <div class="sync-chip-icon icon-schema">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                  </svg>
+                </div>
+                <span class="sync-row-target-name">schema analyzed</span>
+                <span class="sync-row-metric"><strong class="sync-accent-val">38 tables</strong></span>
+                <span class="sync-row-ago">8 min ago</span>
+              </div>
+
+              <!-- Row 4: branch created -->
+              <div class="sync-timeline-card-row">
+                <span class="sync-time-chip">09:47</span>
+                <div class="sync-chip-icon icon-branch">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="6" y1="3" x2="6" y2="15" />
+                    <circle cx="18" cy="6" r="3" />
+                    <circle cx="6" cy="18" r="3" />
+                    <path d="M18 9a9 9 0 0 1-9 9" />
+                  </svg>
+                </div>
+                <span class="sync-row-target-name">branch created</span>
+                <span class="sync-row-metric"><strong class="sync-accent-val">feature/genzos-service</strong></span>
+                <span class="sync-row-ago">12 min ago</span>
+              </div>
+
+              <!-- Row 5: pull request opened -->
+              <div class="sync-timeline-card-row">
+                <span class="sync-time-chip">09:52</span>
+                <div class="sync-chip-icon icon-pr">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="18" cy="18" r="3" />
+                    <circle cx="6" cy="6" r="3" />
+                    <path d="M13 6h3a2 2 0 0 1 2 2v7" />
+                    <line x1="6" y1="9" x2="6" y2="21" />
+                  </svg>
+                </div>
+                <span class="sync-row-target-name">pull request opened</span>
+                <span class="sync-row-metric"><strong class="sync-accent-val">PR #142</strong> <span
+                    class="sync-divider">|</span> Ready for review</span>
+                <span class="sync-row-ago">17 min ago</span>
+              </div>
+
+            </div>
+
+            <!-- Right Column: SYNC STATUS Card -->
+            <div class="sync-status-card-box">
+              <div class="sync-status-text-content">
+                <div class="sync-status-tag">SYNC STATUS</div>
+                <h4 class="sync-status-heading">Everything in <span class="sync-blue-word">Sync</span></h4>
+                <p class="sync-status-desc">
+                  Your engineering environment is connected and ready for continuous development.
+                </p>
+              </div>
+
+              <!-- Bottom 3 Big Numbers Stats Row -->
+              <div class="sync-status-stats-row">
+                <div class="sync-stat-col-item">
+                  <div class="sync-stat-number">14</div>
+                  <div class="sync-stat-label">Services<br>Discovered</div>
+                </div>
+
+                <div class="sync-stat-col-item">
+                  <div class="sync-stat-number">62</div>
+                  <div class="sync-stat-label">Endpoints<br>Mapped</div>
+                </div>
+
+                <div class="sync-stat-col-item">
+                  <div class="sync-stat-number">38</div>
+                  <div class="sync-stat-label">Tables<br>Analyzed</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 10: SECURITY, GOVERNANCE & DEPLOYMENT -->
+    <section class="security-section" id="security">
+      <div class="security-container">
+
+        <!-- Top Full-Width Hero Card (Left Text, Right Robot Graphic) -->
+        <div class="sec-hero-card" style="margin-bottom: 24px;">
+          <div class="sec-hero-content">
+            <div class="eyebrow-pill eyebrow-pill--section-ten">
+              <span class="eyebrow-prefix">10 — </span><span class="eyebrow-text">SECURITY, GOVERNANCE &amp;
+                ACCESS</span>
+            </div>
+            <h2 class="sec-hero-heading">
+              Built for Enterprise <span class="section-ten-highlight">Security</span> and Control
+            </h2>
+            <p class="sec-hero-desc">
+              Access management, controlled AI usage and full history across every workspace, so teams know who
+              generated what and from which requirement.
+            </p>
+            <a href="#demo" class="sec-hero-cta">
+              <span class="sec-hero-cta-text">Explore Deployment Options</span>
+              <span class="sec-hero-cta-arrow">→</span>
+            </a>
+          </div>
+
+          <div class="sec-hero-img-wrap">
+            <img src="section-10image.png" alt="AI-Powered Enterprise Security Robot" class="sec-hero-img"
+              loading="lazy" />
+            <div class="sec-hero-handwritten-note">
+              <span class="note-line">Secure</span>
+              <span class="note-line">Govern</span>
+              <span class="note-line">Enable</span>
+              <svg class="note-underline" viewBox="0 0 60 10" fill="none" stroke="currentColor">
+                <path d="M2 7 C18 2, 42 2, 58 6" stroke-width="2.2" stroke-linecap="round" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Bento Grid: 4 Cards on Left + ACCESS CONTROL Dashboard on Right -->
+        <div class="sec-main-grid">
+
+          <!-- Left Column: 4 Feature / Governance Cards (2x2 Grid) -->
+          <div class="sec-quad-grid">
+
+            <!-- Card 1: Enterprise access management -->
+            <div class="sec-card sec-card--action" tabindex="0">
+              <div class="sec-card__top">
+                <div class="sec-icon-badge sec-icon-badge--blue">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M21 2l-2 2m-1.5 1.5L16 7l-1.5-1.5L13 7l-1.5-1.5L10 7l-1.5-1.5L7 7l-1.5-1.5L4 7a5 5 0 0 0 7 7l10-10z">
+                    </path>
+                    <circle cx="7.5" cy="15.5" r="4.5"></circle>
+                  </svg>
+                </div>
+                <div class="sec-arrow-circle">→</div>
+              </div>
+              <h3 class="sec-card__title">Enterprise access management</h3>
+              <p class="sec-card__desc">Central identity, roles and workspace permissions.</p>
+            </div>
+
+            <!-- Card 2: Secure development workflows -->
+            <div class="sec-card sec-card--action" tabindex="0">
+              <div class="sec-card__top">
+                <div class="sec-icon-badge sec-icon-badge--purple">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                  </svg>
+                </div>
+                <div class="sec-arrow-circle">→</div>
+              </div>
+              <h3 class="sec-card__title">Secure development workflows</h3>
+              <p class="sec-card__desc">Reviewed changes with approval gates before merge.</p>
+            </div>
+
+            <!-- Card 3: Controlled AI usage -->
+            <div class="sec-card sec-card--action" tabindex="0">
+              <div class="sec-card__top">
+                <div class="sec-icon-badge sec-icon-badge--green">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="sec-arrow-circle">→</div>
+              </div>
+              <h3 class="sec-card__title">Controlled AI usage</h3>
+              <p class="sec-card__desc">Policy limits on models, data and agent actions.</p>
+            </div>
+
+            <!-- Card 4: Audit and version history -->
+            <div class="sec-card sec-card--action" tabindex="0">
+              <div class="sec-card__top">
+                <div class="sec-icon-badge sec-icon-badge--orange">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                </div>
+                <div class="sec-arrow-circle">→</div>
+              </div>
+              <h3 class="sec-card__title">Audit and version history</h3>
+              <p class="sec-card__desc">Every generation and change recorded and reversible.</p>
+            </div>
+
+          </div>
+
+          <!-- Right Column: ACCESS CONTROL Dashboard Card -->
+          <div class="sec-access-control-card">
+
+            <!-- Card Header -->
+            <div class="sec-ac-header">
+              <div class="sec-ac-header-left">
+                <div class="sec-ac-icon-box">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <div class="sec-ac-title-wrap">
+                  <h4 class="sec-ac-main-title">Access Control</h4>
+                  <p class="sec-ac-subtitle">Manage roles and permissions across your workspace.</p>
+                </div>
+              </div>
+              <div class="sec-ac-workspace-pill">
+                <span>Workspace : </span><strong class="sec-ac-workspace-name">acme-financial</strong>
+              </div>
+            </div>
+
+            <!-- Role Matrix Table -->
+            <div class="sec-ac-table-wrap">
+              <table class="sec-ac-table">
+                <thead>
+                  <tr>
+                    <th class="th-ac-role">ROLE</th>
+                    <th class="th-ac-action">VIEW</th>
+                    <th class="th-ac-action">GEN</th>
+                    <th class="th-ac-action">PUSH</th>
+                    <th class="th-ac-status">STATUS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="td-ac-role">Workspace owner</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-status"><span class="sec-status-pill status-active">Active</span></td>
+                  </tr>
+                  <tr>
+                    <td class="td-ac-role">Engineering lead</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-status"><span class="sec-status-pill status-active">Active</span></td>
+                  </tr>
+                  <tr>
+                    <td class="td-ac-role">Developer</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-dash">&mdash;</td>
+                    <td class="td-ac-status"><span class="sec-status-pill status-limited">Limited</span></td>
+                  </tr>
+                  <tr>
+                    <td class="td-ac-role">Business stakeholder</td>
+                    <td class="td-ac-check">✓</td>
+                    <td class="td-ac-dash">&mdash;</td>
+                    <td class="td-ac-dash">&mdash;</td>
+                    <td class="td-ac-status"><span class="sec-status-pill status-readonly">Read only</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Recent Access Activity Banner -->
+            <div class="sec-recent-activity-banner">
+              <div class="sec-recent-activity-left">
+                <div class="sec-recent-icon-box">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                </div>
+                <div class="sec-recent-text">
+                  <h5 class="sec-recent-title">Recent Access Activity</h5>
+                  <p class="sec-recent-desc">View the latest access and permission changes.</p>
+                </div>
+              </div>
+              <div class="sec-arrow-circle">→</div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Bottom Compliance Ticker -->
+        <div class="sec-compliance-ticker">
+          <span>SECURE</span>
+          <span class="ticker-dot">•</span>
+          <span>COMPLIANT</span>
+          <span class="ticker-dot">•</span>
+          <span>SCALABLE</span>
+          <span class="ticker-dot">•</span>
+          <span>READY FOR ENTERPRISE</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="shift-section" id="shift">
+      <div class="shift-container">
+
+        <!-- Section Header -->
+        <div class="shift-header">
+          <div class="eyebrow-pill eyebrow-pill--section-eleven">
+            <span class="eyebrow-prefix">11 — </span><span class="eyebrow-text">THE SHIFT</span>
+          </div>
+
+          <h2 class="shift-main-heading">
+            Traditional Delivery vs. <span class="section-eleven-highlight">AI-Native Delivery</span>
+          </h2>
+        </div>
+
+        <!-- Comparison Table / Rows Container -->
+        <div class="shift-comparison-wrapper">
+
+          <!-- Column Headers (Desktop) -->
+          <div class="shift-col-headers" aria-hidden="true">
+            <div class="shift-header-cell shift-col-stage">Lifecycle Stage</div>
+            <div class="shift-header-cell shift-col-traditional">Traditional Delivery</div>
+            <div class="shift-header-cell shift-col-genzos">With GenZos.ai</div>
+          </div>
+
+          <!-- COMPARISON ROWS -->
+          <div class="shift-rows-list">
+
+            <!-- ROW 01: Requirements -->
+            <div class="shift-row-card">
+              <div class="shift-cell shift-cell--stage">
+                <span class="shift-check-icon">✓</span>
+                <span class="shift-stage-name">Requirements</span>
+              </div>
+              <div class="shift-cell shift-cell--traditional">
+                <span class="shift-mobile-label">Traditional:</span>
+                <p class="shift-desc shift-desc--muted">Manual workshops and documents</p>
+              </div>
+              <div class="shift-cell shift-cell--genzos">
+                <span class="shift-mobile-label">With GenZos.ai:</span>
+                <p class="shift-desc shift-desc--highlight">AI-generated BRD, FRD and SRS from inputs</p>
+              </div>
+            </div>
+
+            <!-- ROW 02: Architecture -->
+            <div class="shift-row-card">
+              <div class="shift-cell shift-cell--stage">
+                <span class="shift-check-icon">✓</span>
+                <span class="shift-stage-name">Architecture</span>
+              </div>
+              <div class="shift-cell shift-cell--traditional">
+                <span class="shift-mobile-label">Traditional:</span>
+                <p class="shift-desc shift-desc--muted">Design cycles per initiative</p>
+              </div>
+              <div class="shift-cell shift-cell--genzos">
+                <span class="shift-mobile-label">With GenZos.ai:</span>
+                <p class="shift-desc shift-desc--highlight">Generated architecture with integration mapping</p>
+              </div>
+            </div>
+
+            <!-- ROW 03: Development -->
+            <div class="shift-row-card">
+              <div class="shift-cell shift-cell--stage">
+                <span class="shift-check-icon">✓</span>
+                <span class="shift-stage-name">Development</span>
+              </div>
+              <div class="shift-cell shift-cell--traditional">
+                <span class="shift-mobile-label">Traditional:</span>
+                <p class="shift-desc shift-desc--muted">Effort scales with headcount</p>
+              </div>
+              <div class="shift-cell shift-cell--genzos">
+                <span class="shift-mobile-label">With GenZos.ai:</span>
+                <p class="shift-desc shift-desc--highlight">Agents generate frontend, backend and APIs</p>
+              </div>
+            </div>
+
+            <!-- ROW 04: Quality -->
+            <div class="shift-row-card">
+              <div class="shift-cell shift-cell--stage">
+                <span class="shift-check-icon">✓</span>
+                <span class="shift-stage-name">Quality</span>
+              </div>
+              <div class="shift-cell shift-cell--traditional">
+                <span class="shift-mobile-label">Traditional:</span>
+                <p class="shift-desc shift-desc--muted">Test assets written after the fact</p>
+              </div>
+              <div class="shift-cell shift-cell--genzos">
+                <span class="shift-mobile-label">With GenZos.ai:</span>
+                <p class="shift-desc shift-desc--highlight">Test cases and coverage analysis generated with code</p>
+              </div>
+            </div>
+
+            <!-- ROW 05: Maintenance -->
+            <div class="shift-row-card">
+              <div class="shift-cell shift-cell--stage">
+                <span class="shift-check-icon">✓</span>
+                <span class="shift-stage-name">Maintenance</span>
+              </div>
+              <div class="shift-cell shift-cell--traditional">
+                <span class="shift-mobile-label">Traditional:</span>
+                <p class="shift-desc shift-desc--muted">Ticket-driven, tribal knowledge</p>
+              </div>
+              <div class="shift-cell shift-cell--genzos">
+                <span class="shift-mobile-label">With GenZos.ai:</span>
+                <p class="shift-desc shift-desc--highlight">Automated fixes with requirement-to-code traceability</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 12: BUSINESS IMPACT -->
+    <section class="impact-section" id="impact">
+      <div class="impact-container">
+
+        <!-- Section Header -->
+        <div class="impact-header">
+          <div class="eyebrow-pill eyebrow-pill--section-twelve">
+            <span class="eyebrow-prefix">12 — </span><span class="eyebrow-text">BUSINESS IMPACT</span>
+          </div>
+
+          <h2 class="impact-main-heading">
+            Deliver Software Faster. Innovate Continuously.<br>
+            <span class="section-twelve-highlight">Scale Engineering Capacity.</span>
+          </h2>
+        </div>
+
+        <!-- 6 Impact Cards Grid (3 on top, 3 on bottom with unified brand orange icons) -->
+        <div class="impact-grid">
+
+          <!-- Card 1: Faster time-to-market -->
+          <div class="impact-card" data-impact="1">
+            <div class="impact-card__top">
+              <div class="impact-icon-badge impact-icon-badge--orange">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="impact-metric-bars" aria-hidden="true">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+              </div>
+            </div>
+            <h3 class="impact-card__title">Faster time-to-market</h3>
+          </div>
+
+          <!-- Card 2: Reduced development costs -->
+          <div class="impact-card" data-impact="2">
+            <div class="impact-card__top">
+              <div class="impact-icon-badge impact-icon-badge--orange">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="1" x2="12" y2="23"></line>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="impact-metric-bars" aria-hidden="true">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+              </div>
+            </div>
+            <h3 class="impact-card__title">Reduced development costs</h3>
+          </div>
+
+          <!-- Card 3: Increased engineering productivity -->
+          <div class="impact-card" data-impact="3">
+            <div class="impact-card__top">
+              <div class="impact-icon-badge impact-icon-badge--orange">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                  <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+              </div>
+              <div class="impact-metric-bars" aria-hidden="true">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+              </div>
+            </div>
+            <h3 class="impact-card__title">Increased engineering productivity</h3>
+          </div>
+
+          <!-- Card 4: Faster application modernization -->
+          <div class="impact-card" data-impact="4">
+            <div class="impact-card__top">
+              <div class="impact-icon-badge impact-icon-badge--orange">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="23 4 23 10 17 10"></polyline>
+                  <polyline points="1 20 1 14 7 14"></polyline>
+                  <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                </svg>
+              </div>
+              <div class="impact-metric-bars" aria-hidden="true">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+              </div>
+            </div>
+            <h3 class="impact-card__title">Faster application modernization</h3>
+          </div>
+
+          <!-- Card 5: Improved software quality -->
+          <div class="impact-card" data-impact="5">
+            <div class="impact-card__top">
+              <div class="impact-icon-badge impact-icon-badge--orange">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div class="impact-metric-bars" aria-hidden="true">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+              </div>
+            </div>
+            <h3 class="impact-card__title">Improved software quality</h3>
+          </div>
+
+          <!-- Card 6: Greater delivery scalability -->
+          <div class="impact-card" data-impact="6">
+            <div class="impact-card__top">
+              <div class="impact-icon-badge impact-icon-badge--orange">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 20V10"></path>
+                  <path d="M12 20V4"></path>
+                  <path d="M6 20v-6"></path>
+                </svg>
+              </div>
+              <div class="impact-metric-bars" aria-hidden="true">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+              </div>
+            </div>
+            <h3 class="impact-card__title">Greater delivery scalability</h3>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 13: QUESTIONS / FAQ + FINAL CTA -->
+    <section class="faq-cta-section" id="faq">
+      <div class="faq-cta-container">
+
+        <!-- FAQ Area -->
+        <div class="faq-wrapper">
+          <div class="faq-header">
+            <div class="eyebrow-pill eyebrow-pill--section-thirteen">
+              <span class="eyebrow-prefix">13 — </span><span class="eyebrow-text">QUESTIONS</span>
+            </div>
+
+            <h2 class="faq-main-heading">
+              What Engineering Leaders Ask
+            </h2>
+          </div>
+
+          <!-- FAQ Accordion Stack -->
+          <div class="faq-accordion" id="faqAccordion">
+
+            <!-- Item 1 (Open by default) -->
+            <div class="faq-item is-open" data-faq="1">
+              <button type="button" class="faq-question-btn" aria-expanded="true">
+                <span class="faq-question-text">Does GenZos.ai replace our engineering team?</span>
+                <span class="faq-toggle-icon">×</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p class="faq-answer-text">
+                  No. Agents work alongside engineering teams — they handle requirement analysis, documentation,
+                  generation and validation, while engineers own architecture decisions, review and release.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="faq-item" data-faq="2">
+              <button type="button" class="faq-question-btn" aria-expanded="false">
+                <span class="faq-question-text">Can it work with our existing applications?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p class="faq-answer-text">
+                  Yes. GenZos.ai works with existing applications, repositories, APIs, documentation, and engineering
+                  environments.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="faq-item" data-faq="3">
+              <button type="button" class="faq-question-btn" aria-expanded="false">
+                <span class="faq-question-text">Which technologies are supported?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p class="faq-answer-text">
+                  GenZos.ai supports modern application technologies, APIs, repositories, databases, and enterprise
+                  engineering workflows.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="faq-item" data-faq="4">
+              <button type="button" class="faq-question-btn" aria-expanded="false">
+                <span class="faq-question-text">How is AI usage governed?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p class="faq-answer-text">
+                  AI usage is governed through controlled workflows, validation, security policies, traceability, and
+                  human review.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="faq-item" data-faq="5">
+              <button type="button" class="faq-question-btn" aria-expanded="false">
+                <span class="faq-question-text">What deployment models are available?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p class="faq-answer-text">
+                  Support deployment models suitable for enterprise environments, including controlled and secure
+                  application workflows.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- FINAL CTA -->
+        <div class="final-cta-panel">
+          <div class="cta-ambient-glow"></div>
+
+          <div class="cta-inner-content">
+            <h2 class="cta-heading">
+              Transform Your Software Engineering with <span class="section-thirteen-highlight">AI-Native
+                Development</span>
+            </h2>
+
+            <p class="cta-subheading">
+              Empower your teams to build, enhance, and modernize enterprise applications faster with GenZos.ai.
+            </p>
+
+            <div class="cta-actions-group">
+              <a href="#demo" class="cta-primary-btn">
+                <span>Request Enterprise Demo</span>
+                <span class="cta-arrow">→</span>
+              </a>
+              <a href="#contact" class="cta-secondary-btn">
+                <span>Talk to Engineering</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SITE FOOTER: Inverted Theme Contrast (Light Mode = Black Footer, Dark Mode = White Footer) -->
+  <footer class="site-footer" id="siteFooter">
+    <div class="footer-container">
+
+      <div class="footer-main-grid">
+
+        <!-- Brand Column -->
+        <div class="footer-brand-col">
+          <a href="#" class="footer-logo-link" aria-label="GenZos.ai Home">
+            <img id="footerLogo" src="logoicon-white.png" alt="GenZos.ai" class="footer-logo-img" />
+          </a>
+          <p class="footer-tagline">
+            The AI-Native Engineering Platform transforming enterprise business requirements into deployable,
+            production-grade software.
+          </p>
+          <div class="footer-status-pill">
+            <span class="status-dot-live"></span>
+            <span class="status-text">All Systems Operational</span>
+          </div>
+        </div>
+
+        <!-- Column 1: Product -->
+        <div class="footer-nav-col">
+          <h4 class="footer-nav-title">Product</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hero">Overview</a></li>
+            <li><a href="#workflow">Requirements to Code</a></li>
+            <li><a href="#capabilities">Architecture Design</a></li>
+            <li><a href="#integrations">Integrations &amp; Sync</a></li>
+            <li><a href="#shift">The AI Shift</a></li>
+            <li><a href="#impact">Business Impact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Capabilities -->
+        <div class="footer-nav-col">
+          <h4 class="footer-nav-title">Capabilities</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#capabilities">Application Development</a></li>
+            <li><a href="#capabilities">Documentation Automation</a></li>
+            <li><a href="#capabilities">Quality Engineering</a></li>
+            <li><a href="#capabilities">Technology Support</a></li>
+            <li><a href="#faq">Enterprise Governance</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Resources -->
+        <div class="footer-nav-col">
+          <h4 class="footer-nav-title">Resources</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">API Reference</a></li>
+            <li><a href="#">Architecture Guides</a></li>
+            <li><a href="#">Security Whitepaper</a></li>
+            <li><a href="#">Release Notes</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Company -->
+        <div class="footer-nav-col">
+          <h4 class="footer-nav-title">Company</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers <span class="footer-hiring-badge">We're hiring</span></a></li>
+            <li><a href="#">Security &amp; Trust</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p class="footer-copyright">
+          &copy; 2026 GenZos.ai Inc. All rights reserved.
+        </p>
+        <div class="footer-social-links">
+          <a href="#" class="footer-social-btn" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+          </a>
+          <a href="#" class="footer-social-btn" aria-label="X / Twitter">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 22.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
